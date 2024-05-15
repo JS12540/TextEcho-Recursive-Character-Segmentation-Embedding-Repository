@@ -5,7 +5,7 @@ client = chromadb.HttpClient(host="localhost", port=29170, headers={"X-Chroma-To
 print(client.heartbeat())
 
 openai_ef = embedding_functions.OpenAIEmbeddingFunction(
-                api_key="sk-proj-9f5L52hNZd3vlGBWS3deT3BlbkFJ9VLRlf6KdsbiFObt6syq",
+                api_key="OPENAI_KEY",
                 model_name="text-embedding-3-small"
             )
 
